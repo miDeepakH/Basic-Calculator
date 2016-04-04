@@ -1,16 +1,22 @@
+/*
+* Author: Deepak
+* Date: 04/04/2016
+*/
 #include <iostream>
+using namespace std;
+
 int main()
 {
 	int a, b, addres, subres, mulres, divres;
-	std::cout << "Enter two numbers\n" << std::endl;
-	std::cin >> a >> b;
+	cout << "Enter two numbers\n" << endl;
+	cin >> a >> b;
 	addres = a + b;
 	subres = a - b;
 	mulres = a * b;
 	divres = a / b;
-	std::cout << "Addition = " << addres << std::endl;
-	std::cout << "Subtraction = " << subres << std::endl;
-	std::cout << "Multiplucation = " << mulres << std::endl;
-	std::cout << "Division = " << divres << std::endl;
+	cout << "Addition = " << addres << endl;
+	cout << "Subtraction = " << subres << endl;
+	cout << "Multiplucation = " << mulres << endl;
+	cout << "Division = " << divres << endl;
 	return 0;
 }
